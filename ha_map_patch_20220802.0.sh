@@ -43,7 +43,7 @@ for searchingPath in "${searchingPaths[@]}"; do
 		done
 
 		while true; do
-			read -p "작업할 경로 번호를 입력하세요: " num
+			num=1
 			if [ $num -eq 0 ]; then
 				break
 			elif [ $num -gt $findCnt ]; then
